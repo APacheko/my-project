@@ -1,0 +1,62 @@
+.team {
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.team__list {
+  display: grid;
+  grid-template-columns: minmax(350px, 510px) minmax(350px, 510px);
+  gap: 60px 20px;
+}
+
+.team__title {
+  max-width: 520px;
+  padding-bottom: 20px;
+}
+
+.team__subtitle {
+  padding-bottom: 10px;
+  color: #58AF31;
+}
+
+.team__text {
+  max-width: 345px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media (max-width: 1175px) {
+  .team {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .team__list {
+    justify-content: center;
+    max-width: 768px;
+    padding: 40px;
+  }
+}
+
+
+@media (max-width: 849px) {
+  .team__list {
+    grid-template-columns: repeat(auto-fit, 390px);
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .team__text {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 410px) {
+  .team__list {
+    grid-template-columns: repeat(auto-fit, 360px);
+  }
+}

@@ -1,0 +1,67 @@
+.popup__container-tooltip {
+  width: 796px;
+  height: 656px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.popup__title-tooltip{
+  color: #58AF31;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 128px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.popup__text-tooltip {
+  max-width: 371px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media (max-width: 1175px) {
+  .popup__container-tooltip {
+    width: 696px;
+    height: 556px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__container-tooltip {
+    width: 389px;
+    height: 579px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__title-tooltip {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__text-tooltip {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+}

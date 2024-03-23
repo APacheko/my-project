@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  medium;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./VelaSans-Medium.woff2") format("woff2"),
+       url("./VelaSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  'semiBold';
+  font-weight: 600;
+  font-display: swap;
+  src: url("./VelaSans-SemiBold.woff2") format("woff2"),
+       url("./VelaSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./VelaSans-Bold.woff2") format("woff2"),
+       url("./VelaSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  'extraBold';
+  font-weight: 900;
+  font-display: swap;
+  src: url("./VelaSans-ExtraBold.woff2") format("woff2"),
+       url("./VelaSans-ExtraBold.woff") format("woff");
+}

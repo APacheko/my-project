@@ -6,7 +6,7 @@ const smtpTransport = mailer.createTransport({
   secure: true,
   auth: {
     user: 'orggrant@yandex.ru',
-    pass: 'vylfbattkgsddaaz',
+    pass: '',
   },
   tls: {rejectUnauthorized: false},
 }, {

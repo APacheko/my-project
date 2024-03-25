@@ -77,11 +77,11 @@
 }
 
 .service__price {
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 58px;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 66px;
   padding: 0 25px;
-  letter-spacing: -1px;
+  letter-spacing: -5px;
 }
 
 .service__span {

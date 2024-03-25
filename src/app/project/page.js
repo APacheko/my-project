@@ -5,7 +5,7 @@ import project from "../../../public/project.png";
 export default function Project() {
   return (
     <section className="project">
-      
+      {/* <h1 className="project__title">Проекты</h1> */}
       <Image className="project__image" src={project} alt="Логотип" />
       <h2 className="project__name">Этнокараоке</h2>
       <div className="project__container">

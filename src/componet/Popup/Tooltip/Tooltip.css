@@ -40,14 +40,8 @@
 
 @media (max-width: 849px) {
   .popup__container-tooltip {
-    max-width: 389px;
+    width: 389px;
     height: 579px;
-  }
-}
-
-@media (max-width: 410px) {
-  .popup__container-tooltip {
-    max-width: 350px;
   }
 }
 

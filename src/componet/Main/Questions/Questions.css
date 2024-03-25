@@ -17,6 +17,10 @@
   padding-bottom: 10px;
 }
 
+.questions__item {
+  max-width: 465px;
+}
+
 
 @media (max-width: 1175px) {
   .questions {

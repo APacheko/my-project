@@ -1,8 +1,7 @@
-"use client";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handleOverlayClose }) {
-  
+
   const {
     register,
     formState: { errors },
@@ -70,7 +69,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
                 pattern: {
                   value: /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
                   message: "Введите Email в формате example@example.ru"
-                
+
                 }
               })}
               type="email"
@@ -86,9 +85,9 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
               className="popup__item popup__item_type_phone P2"
               {...register("phone", {
                 required: "Поле обязательно к заполнению",
-                
-             
-                
+
+
+
               })}
               type="tel"
               name="phone"

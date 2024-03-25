@@ -29,4 +29,3 @@ export default function handler (req, res) {
   // sendEmail(messageClient);
   res.send(`Спасибо за обращение ${req.body.name}`)
 }
-

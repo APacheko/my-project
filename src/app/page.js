@@ -1,5 +1,4 @@
 "use client";
-import Script from 'next/script'
 import Main from "../componet/Main/Main";
 import "./page.global.css";
 import Popup from "@/componet/Popup/Popup";

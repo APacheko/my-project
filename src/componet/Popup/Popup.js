@@ -13,7 +13,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
   });
 
   const sendForm = async (data) => {
-    const response = await fetch("http://my-project-pied-nine.vercel.app/api/sendEmail", {
+    const response = await fetch("https://my-project-pied-nine.vercel.app/api/sendEmail", {
       method: "POST",
       headers: {
         "content-type": "application/jspn",

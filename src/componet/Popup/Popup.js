@@ -1,42 +1,50 @@
 "use client";
 import { useForm } from "react-hook-form";
 
-export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handleOverlayClose }) {
-
+export default function Popup({
+  isOpenPopup,
+  closePopup,
+  setIsTooltipOpen,
+  handleOverlayClose,
+}) {
   const {
     register,
     formState: { errors, isValid },
     handleSubmit,
     reset,
   } = useForm({
-    mode: 'onBlur',
+    mode: "onBlur",
   });
 
   const sendForm = async (data) => {
-    const response = await fetch("https://my-project-pied-nine.vercel.app/api/sendEmail", {
-      method: "POST",
-      headers: {
-        "content-type": "application/jspn",
-      },
-      body: JSON.stringify({
-        data,
-      }),
-    });
+    const response = await fetch(
+      "https://my-project-pied-nine.vercel.app/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Accept": "application/json",
+          "content-type": "application/jspn",
+          "Access-Control-Allow-Origin": "*",
+        },
+        body: JSON.stringify({
+          data,
+        }),
+      }
+    );
     reset();
     closePopup();
     setIsTooltipOpen(true);
   };
 
-  function handleInput (e) {
+  function handleInput(e) {
     const phoneInputs = document.querySelectorAll("input[data-tel-input]");
-   
+
     const getInputNumbersValue = function (input) {
       return input.value.replace(/\D/g, "");
     };
-  
+
     const onPhonePaste = function (e) {
       const input = e.target,
-      inputNumbersValue = getInputNumbersValue(input);
+        inputNumbersValue = getInputNumbersValue(input);
       const pasted = e.clipboardData || window.clipboardData;
       if (pasted) {
         var pastedText = pasted.getData("Text");
@@ -46,9 +54,8 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
         }
       }
     };
-  
+
     const onPhoneInput = function (e) {
-      
       let input = e.target,
         inputNumbersValue = getInputNumbersValue(input),
         selectionStart = input.selectionStart,
@@ -56,16 +63,15 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
       if (!inputNumbersValue) {
         return (input.value = "");
       }
-  
+
       if (input.value.length != selectionStart) {
         if (e.data && /\D/g.test(e.data)) {
           input.value = inputNumbersValue;
         }
         return;
       }
-  
+
       if (["7", "8", "9"].indexOf(inputNumbersValue[0]) > -1) {
-        
         if (inputNumbersValue[0] == "9")
           inputNumbersValue = "7" + inputNumbersValue;
         let firstSymbols = inputNumbersValue[0] == "8" ? "8" : "+7";
@@ -98,9 +104,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
       phoneInput.addEventListener("input", onPhoneInput, false);
       phoneInput.addEventListener("paste", onPhonePaste, false);
     }
-  };
-
-  
+  }
 
   return (
     <article
@@ -160,41 +164,46 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
               {errors?.email && errors.email.message}
             </span>
           </label>
-          <label className="popup__error " >
-            <input 
-            {...register('phone', {
-              onChange: (e) => {handleInput(e)},
-              required: "Поле обязательно к заполнению",
-              pattern: {
-                value:
-                /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/,
-                message: "Введите корректный номер",
-              },
-              
-            })}
-             
+          <label className="popup__error ">
+            <input
+              {...register("phone", {
+                onChange: (e) => {
+                  handleInput(e);
+                },
+                required: "Поле обязательно к заполнению",
+                pattern: {
+                  value:
+                    /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/,
+                  message: "Введите корректный номер",
+                },
+              })}
               data-tel-input
               className="popup__item popup__item_type_phone P2"
               type="tel"
               name="phone"
               placeholder="Телефон"
-              
             />
             <span className="popup__txt-error">
               {errors?.phone && errors.phone.message}
             </span>
           </label>
           <label className="custom-checkbox popup__item popup__item_type_checkbox">
-            <input type="checkbox" 
-               {...register("checkbox", {
+            <input
+              type="checkbox"
+              {...register("checkbox", {
                 required: "Поле обязательно к заполнению",
-              })}/>
+              })}
+            />
             <span className="popup__item_type_checkbox P2">
               Согласие на обработку персональных данных
             </span>
           </label>
         </fieldset>
-        <button className="popup__submit-btn H2" type="submit" disabled={!isValid}>
+        <button
+          className="popup__submit-btn H2"
+          type="submit"
+          disabled={!isValid}
+        >
           Отправить
         </button>
         <button
@@ -207,5 +216,3 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
     </article>
   );
 }
-
-

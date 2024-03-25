@@ -18,7 +18,7 @@ export default function Popup({
   });
 
   const sendForm = async (data) => {
-    await axios.post("https://my-project-pied-nine.vercel.app/api/sendEmail", { data });
+    await axios.post("https://my-project-pied-nine.vercel.app/api/send-request", { data });
     reset();
     closePopup();
     setIsTooltipOpen(true);

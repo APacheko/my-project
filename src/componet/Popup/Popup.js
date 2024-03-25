@@ -17,12 +17,16 @@ export default function Popup({
     mode: "onBlur",
   });
 
-  const sendForm = async (data) => {
-    await axios.post("https://my-project-pied-nine.vercel.app/api/send-request", { data });
-    reset();
-    closePopup();
-    setIsTooltipOpen(true);
-  };
+  async function sendForm(data) {
+    try {
+      await axios.post("https://my-project-pied-nine.vercel.app/api/send-request", data);
+      reset();
+      closePopup();
+      setIsTooltipOpen(true);
+    } catch (error) {
+      console.log("sending error", error);
+    }
+  }
 
   function handleInput(e) {
     const phoneInputs = document.querySelectorAll("input[data-tel-input]");

@@ -1,0 +1,76 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/send-request";
+exports.ids = ["pages/api/send-request"];
+exports.modules = {
+
+/***/ "next/dist/compiled/next-server/pages-api.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages-api.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages-api.runtime.dev.js");
+
+/***/ }),
+
+/***/ "nodemailer":
+/*!*****************************!*\
+  !*** external "nodemailer" ***!
+  \*****************************/
+/***/ ((module) => {
+
+module.exports = require("nodemailer");
+
+/***/ }),
+
+/***/ "(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsend-request&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fsend-request.js&middlewareConfigBase64=e30%3D!":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsend-request&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fsend-request.js&middlewareConfigBase64=e30%3D! ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   routeModule: () => (/* binding */ routeModule)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages-api/module.compiled */ \"(api)/./node_modules/next/dist/server/future/route-modules/pages-api/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(api)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"(api)/./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var _src_pages_api_send_request_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/pages/api/send-request.js */ \"(api)/./src/pages/api/send-request.js\");\n\n\n\n// Import the userland code.\n\n// Re-export the handler (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_src_pages_api_send_request_js__WEBPACK_IMPORTED_MODULE_3__, \"default\"));\n// Re-export config.\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_src_pages_api_send_request_js__WEBPACK_IMPORTED_MODULE_3__, \"config\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesAPIRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES_API,\n        page: \"/api/send-request\",\n        pathname: \"/api/send-request\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    userland: _src_pages_api_send_request_js__WEBPACK_IMPORTED_MODULE_3__\n});\n\n//# sourceMappingURL=pages-api.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTX0FQSSZwYWdlPSUyRmFwaSUyRnNlbmQtcmVxdWVzdCZwcmVmZXJyZWRSZWdpb249JmFic29sdXRlUGFnZVBhdGg9LiUyRnNyYyUyRnBhZ2VzJTJGYXBpJTJGc2VuZC1yZXF1ZXN0LmpzJm1pZGRsZXdhcmVDb25maWdCYXNlNjQ9ZTMwJTNEISIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFzRztBQUN2QztBQUNMO0FBQzFEO0FBQzREO0FBQzVEO0FBQ0EsaUVBQWUsd0VBQUssQ0FBQywyREFBUSxZQUFZLEVBQUM7QUFDMUM7QUFDTyxlQUFlLHdFQUFLLENBQUMsMkRBQVE7QUFDcEM7QUFDTyx3QkFBd0IsZ0hBQW1CO0FBQ2xEO0FBQ0EsY0FBYyx5RUFBUztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMLFlBQVk7QUFDWixDQUFDOztBQUVEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb3JnZ3JhbnQvP2ZmYTMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUGFnZXNBUElSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL3BhZ2VzLWFwaS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBob2lzdCB9IGZyb20gXCJuZXh0L2Rpc3QvYnVpbGQvdGVtcGxhdGVzL2hlbHBlcnNcIjtcbi8vIEltcG9ydCB0aGUgdXNlcmxhbmQgY29kZS5cbmltcG9ydCAqIGFzIHVzZXJsYW5kIGZyb20gXCIuL3NyYy9wYWdlcy9hcGkvc2VuZC1yZXF1ZXN0LmpzXCI7XG4vLyBSZS1leHBvcnQgdGhlIGhhbmRsZXIgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBjb25maWcuXG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNBUElSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVNfQVBJLFxuICAgICAgICBwYWdlOiBcIi9hcGkvc2VuZC1yZXF1ZXN0XCIsXG4gICAgICAgIHBhdGhuYW1lOiBcIi9hcGkvc2VuZC1yZXF1ZXN0XCIsXG4gICAgICAgIC8vIFRoZSBmb2xsb3dpbmcgYXJlbid0IHVzZWQgaW4gcHJvZHVjdGlvbi5cbiAgICAgICAgYnVuZGxlUGF0aDogXCJcIixcbiAgICAgICAgZmlsZW5hbWU6IFwiXCJcbiAgICB9LFxuICAgIHVzZXJsYW5kXG59KTtcblxuLy8jIHNvdXJjZU1hcHBpbmdVUkw9cGFnZXMtYXBpLmpzLm1hcCJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsend-request&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fsend-request.js&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(api)/./src/lib/mail.js":
+/*!*************************!*\
+  !*** ./src/lib/mail.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var nodemailer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! nodemailer */ \"nodemailer\");\n/* harmony import */ var nodemailer__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(nodemailer__WEBPACK_IMPORTED_MODULE_0__);\n\nconst smtpTransport = nodemailer__WEBPACK_IMPORTED_MODULE_0___default().createTransport({\n    host: \"smtp.yandex.ru\",\n    port: 465,\n    secure: true,\n    auth: {\n        user: \"orggrant@yandex.ru\",\n        pass: \"vylfbattkgsddaaz\"\n    },\n    tls: {\n        rejectUnauthorized: false\n    }\n}, {\n    from: \"orggrant <orggrant@yandex.ru\"\n});\nconst sendEmail = (message)=>{\n    smtpTransport.sendMail(message, function(error, info) {\n        if (error) {\n            console.log(error);\n        } else {\n            console.log(\"Email sent successfully\", info);\n        }\n        smtpTransport.close();\n    });\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sendEmail);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9zcmMvbGliL21haWwuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQWdDO0FBRWhDLE1BQU1DLGdCQUFnQkQsaUVBQXNCLENBQUM7SUFDM0NHLE1BQU07SUFDTkMsTUFBTTtJQUNOQyxRQUFRO0lBQ1JDLE1BQU07UUFDSkMsTUFBTTtRQUNOQyxNQUFNO0lBQ1I7SUFDQUMsS0FBSztRQUFDQyxvQkFBb0I7SUFBSztBQUNqQyxHQUFHO0lBQ0NDLE1BQU07QUFDVjtBQUdBLE1BQU1DLFlBQVksQ0FBQ0M7SUFDakJaLGNBQWNhLFFBQVEsQ0FBQ0QsU0FBUyxTQUFVRSxLQUFLLEVBQUVDLElBQUk7UUFDbkQsSUFBSUQsT0FBTztZQUNURSxRQUFRQyxHQUFHLENBQUNIO1FBQ2QsT0FBTztZQUNMRSxRQUFRQyxHQUFHLENBQUMsMkJBQTJCRjtRQUN6QztRQUNBZixjQUFja0IsS0FBSztJQUNyQjtBQUNGO0FBRUEsaUVBQWVQLFNBQVNBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vcmdncmFudC8uL3NyYy9saWIvbWFpbC5qcz8yNjY0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBtYWlsZXIgZnJvbSAnbm9kZW1haWxlcic7XG5cbmNvbnN0IHNtdHBUcmFuc3BvcnQgPSBtYWlsZXIuY3JlYXRlVHJhbnNwb3J0KHtcbiAgaG9zdDogJ3NtdHAueWFuZGV4LnJ1JyxcbiAgcG9ydDogNDY1LFxuICBzZWN1cmU6IHRydWUsXG4gIGF1dGg6IHtcbiAgICB1c2VyOiAnb3JnZ3JhbnRAeWFuZGV4LnJ1JyxcbiAgICBwYXNzOiAndnlsZmJhdHRrZ3NkZGFheicsXG4gIH0sXG4gIHRsczoge3JlamVjdFVuYXV0aG9yaXplZDogZmFsc2V9LFxufSwge1xuICAgIGZyb206ICdvcmdncmFudCA8b3JnZ3JhbnRAeWFuZGV4LnJ1J1xufSk7XG5cblxuY29uc3Qgc2VuZEVtYWlsID0gKG1lc3NhZ2UpID0+IHtcbiAgc210cFRyYW5zcG9ydC5zZW5kTWFpbChtZXNzYWdlLCBmdW5jdGlvbiAoZXJyb3IsIGluZm8pIHtcbiAgICBpZiAoZXJyb3IpIHtcbiAgICAgIGNvbnNvbGUubG9nKGVycm9yKTtcbiAgICB9IGVsc2Uge1xuICAgICAgY29uc29sZS5sb2coJ0VtYWlsIHNlbnQgc3VjY2Vzc2Z1bGx5JywgaW5mbylcbiAgICB9XG4gICAgc210cFRyYW5zcG9ydC5jbG9zZSgpO1xuICB9KTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgc2VuZEVtYWlsOyJdLCJuYW1lcyI6WyJtYWlsZXIiLCJzbXRwVHJhbnNwb3J0IiwiY3JlYXRlVHJhbnNwb3J0IiwiaG9zdCIsInBvcnQiLCJzZWN1cmUiLCJhdXRoIiwidXNlciIsInBhc3MiLCJ0bHMiLCJyZWplY3RVbmF1dGhvcml6ZWQiLCJmcm9tIiwic2VuZEVtYWlsIiwibWVzc2FnZSIsInNlbmRNYWlsIiwiZXJyb3IiLCJpbmZvIiwiY29uc29sZSIsImxvZyIsImNsb3NlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./src/lib/mail.js\n");
+
+/***/ }),
+
+/***/ "(api)/./src/pages/api/send-request.js":
+/*!***************************************!*\
+  !*** ./src/pages/api/send-request.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _lib_mail__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../lib/mail */ \"(api)/./src/lib/mail.js\");\n\nfunction handler(req, res) {\n    const message = {\n        to: \"orggrant@yandex.ru\",\n        subject: `Заявка с сайта orggrant.ru от ${req.body.name}`,\n        text: `\n      Имя: ${req.body.name},\n      Телефон: ${req.body.phone},\n      E-mail: ${req.body.email},\n    `\n    };\n    // const messageClient ={\n    //   to: `${req.body.email}`,\n    //   subject: `Ваша заявка принтята `,\n    //   text: `\n    //      hi!\n    //  `,\n    //   attachments: [\n    //     {\n    //         filename: 'Frame.png',\n    //         path: __dirname + '/Frame.png',\n    //         cid: 'uniq-Frame.png'\n    //     }\n    // ]\n    // };\n    (0,_lib_mail__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(message);\n    // sendEmail(messageClient);\n    res.send(`Спасибо за обращение ${req.body.name}`);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9zcmMvcGFnZXMvYXBpL3NlbmQtcmVxdWVzdC5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFzQztBQUV2QixTQUFTQyxRQUFTQyxHQUFHLEVBQUVDLEdBQUc7SUFFdkMsTUFBTUMsVUFBUztRQUNiQyxJQUFJO1FBQ0pDLFNBQVMsQ0FBQyw4QkFBOEIsRUFBRUosSUFBSUssSUFBSSxDQUFDQyxJQUFJLENBQUMsQ0FBQztRQUN6REMsTUFBTSxDQUFDO1dBQ0EsRUFBRVAsSUFBSUssSUFBSSxDQUFDQyxJQUFJLENBQUM7ZUFDWixFQUFFTixJQUFJSyxJQUFJLENBQUNHLEtBQUssQ0FBQztjQUNsQixFQUFFUixJQUFJSyxJQUFJLENBQUNJLEtBQUssQ0FBQztJQUMzQixDQUFDO0lBQ0g7SUFDQSx5QkFBeUI7SUFDekIsNkJBQTZCO0lBQzdCLHNDQUFzQztJQUN0QyxZQUFZO0lBQ1osV0FBVztJQUNYLE1BQU07SUFDTixtQkFBbUI7SUFDbkIsUUFBUTtJQUNSLGlDQUFpQztJQUNqQywwQ0FBMEM7SUFDMUMsZ0NBQWdDO0lBQ2hDLFFBQVE7SUFDUixJQUFJO0lBQ0osS0FBSztJQUNMWCxxREFBU0EsQ0FBQ0k7SUFDViw0QkFBNEI7SUFDNUJELElBQUlTLElBQUksQ0FBQyxDQUFDLHFCQUFxQixFQUFFVixJQUFJSyxJQUFJLENBQUNDLElBQUksQ0FBQyxDQUFDO0FBQ2xEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb3JnZ3JhbnQvLi9zcmMvcGFnZXMvYXBpL3NlbmQtcmVxdWVzdC5qcz9mZjFmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzZW5kRW1haWwgZnJvbSBcIi4uLy4uL2xpYi9tYWlsXCJcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gaGFuZGxlciAocmVxLCByZXMpIHtcblxuICBjb25zdCBtZXNzYWdlID17XG4gICAgdG86ICdvcmdncmFudEB5YW5kZXgucnUnLCBcbiAgICBzdWJqZWN0OiBg0JfQsNGP0LLQutCwINGBINGB0LDQudGC0LAgb3JnZ3JhbnQucnUg0L7RgiAke3JlcS5ib2R5Lm5hbWV9YCxcbiAgICB0ZXh0OiBgXG4gICAgICDQmNC80Y86ICR7cmVxLmJvZHkubmFtZX0sXG4gICAgICDQotC10LvQtdGE0L7QvTogJHtyZXEuYm9keS5waG9uZX0sXG4gICAgICBFLW1haWw6ICR7cmVxLmJvZHkuZW1haWx9LFxuICAgIGAsXG4gIH07XG4gIC8vIGNvbnN0IG1lc3NhZ2VDbGllbnQgPXtcbiAgLy8gICB0bzogYCR7cmVxLmJvZHkuZW1haWx9YCxcbiAgLy8gICBzdWJqZWN0OiBg0JLQsNGI0LAg0LfQsNGP0LLQutCwINC/0YDQuNC90YLRj9GC0LAgYCxcbiAgLy8gICB0ZXh0OiBgXG4gIC8vICAgICAgaGkhXG4gIC8vICBgLFxuICAvLyAgIGF0dGFjaG1lbnRzOiBbXG4gIC8vICAgICB7XG4gIC8vICAgICAgICAgZmlsZW5hbWU6ICdGcmFtZS5wbmcnLFxuICAvLyAgICAgICAgIHBhdGg6IF9fZGlybmFtZSArICcvRnJhbWUucG5nJyxcbiAgLy8gICAgICAgICBjaWQ6ICd1bmlxLUZyYW1lLnBuZydcbiAgLy8gICAgIH1cbiAgLy8gXVxuICAvLyB9O1xuICBzZW5kRW1haWwobWVzc2FnZSk7XG4gIC8vIHNlbmRFbWFpbChtZXNzYWdlQ2xpZW50KTtcbiAgcmVzLnNlbmQoYNCh0L/QsNGB0LjQsdC+INC30LAg0L7QsdGA0LDRidC10L3QuNC1ICR7cmVxLmJvZHkubmFtZX1gKVxufSJdLCJuYW1lcyI6WyJzZW5kRW1haWwiLCJoYW5kbGVyIiwicmVxIiwicmVzIiwibWVzc2FnZSIsInRvIiwic3ViamVjdCIsImJvZHkiLCJuYW1lIiwidGV4dCIsInBob25lIiwiZW1haWwiLCJzZW5kIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./src/pages/api/send-request.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fsend-request&preferredRegion=&absolutePagePath=.%2Fsrc%2Fpages%2Fapi%2Fsend-request.js&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();

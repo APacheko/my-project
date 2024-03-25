@@ -14,7 +14,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
 
   async function sendForm(data) {
     try {
-      await axios.post("https://my-project-pied-nine.vercel.app/api/send-request", data);
+      await axios.post("https://my-project-two-navy.vercel.app/api/send-request", data);
       reset();
       closePopup();
       setIsTooltipOpen(true);

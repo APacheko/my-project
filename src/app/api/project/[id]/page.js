@@ -1,5 +1,5 @@
-import "./project.css";
 import "../../page.global.css";
+import "./project.css";
 import Link from "next/link";
 import Image from "next/image";
 import { projects } from "@/lib/constants";

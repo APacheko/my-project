@@ -1,6 +1,6 @@
 import etno from "../../public/etno-image.png";
-import project2 from "../../public/project2.png";
-import project3 from "../../public/project3.png";
+import orator from "../../public/Orator.jpeg";
+import game from "../../public/game.jpeg";
 export const services = [
   {
     id: 1,
@@ -80,11 +80,11 @@ export const services = [
 export const projects = [
   {
     id: "1",
-    image_preview: project2,
+    image_preview: game,
     summ: "5 670 805",
     title_preview:
       "Проекты для Всероссийского общества слепых и Федерации спорта слепых Московской области",
-    image: etno,
+    image: game,
     title: "Общество слепых",
     subtitle: "Осуществлялось консультирование по подготовке и реализации 6 проектов, все были и поддержаны грантодателем. Общее количество участников проекта составило 648 слепых и слабовидящих.",
     li: [
@@ -94,11 +94,11 @@ export const projects = [
   },
   {
     id: "2",
-    image_preview: project2,
+    image_preview: orator,
     summ: "2 599 230",
     title_preview:
       "Ораторское искусство людям с ограниченными возможностями здоровья",
-    image: etno,
+    image: orator,
     title: "Ораторское искусство",
     subtitle: "378 человек с ограниченными возможностями из 12 регионов РФ (Ивановская область, Республика Карелия, Рязанская область, Костромская область, Смоленская область, Тверская область, Республика Татарстан, Брянская область, Ленинградская область и Санкт-Петербург, Ульяновская область, Ярославская область, Московская область):",
     li: ["Получили знания и информацию об использовании основ ораторского искусства и риторики в повседневной и общественной жизни.",
@@ -110,7 +110,7 @@ export const projects = [
 
   {
     id: "3",
-    image_preview: project3,
+    image_preview: etno,
     summ: "2 967 730",
     title_preview:
       "Этнокараоке: поддержка творческих коллективов, поющих на языках народов России",

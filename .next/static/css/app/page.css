@@ -730,11 +730,11 @@ template {
 }
 
 .service__price {
-  font-size: 60px;
-  font-weight: 800;
-  line-height: 66px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
   padding: 0 25px;
-  letter-spacing: -5px;
+  letter-spacing: -1px;
 }
 
 .service__span {
@@ -980,6 +980,10 @@ template {
   padding-bottom: 10px;
 }
 
+.questions__item {
+  max-width: 465px;
+}
+
 
 @media (max-width: 1175px) {
   .questions {
@@ -1192,7 +1196,8 @@ template {
 }
 
 .popup__field {
-  padding: 0 36px;
+  max-width: 500px;
+  padding: 0;
   border: 0;
   display: flex;
   flex-direction: column;
@@ -1307,7 +1312,7 @@ template {
 }
 
 .popup__submit-btn:disabled {
-  background-color: #fff;
+  background-color: #9d97972d;
   color: rgb(209, 203, 203);
   border: 1px solid rgb(209, 203, 203);
   opacity: 1;
@@ -1335,13 +1340,27 @@ template {
 
 @media (max-width: 1175px) {
   .popup__container {
-    padding: 25px 20px 25px;
+    padding: 25px 50px 25px;
   }
 }
 
 @media (max-width: 849px) {
   .popup__container {
+    padding: 25px 40px 25px;
     max-width: 390px;
+  }
+}
+
+@media (max-width: 520px) {
+  .popup__container {
+    padding: 25px 20px 25px;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 420px) {
+  .popup__container {
+    max-width: 320px;
   }
 }
 
@@ -1357,12 +1376,6 @@ template {
 }
 
 @media (max-width: 1175px) {
-  .popup__field {
-    padding: 0 25px;
-  }
-}
-
-@media (max-width: 1175px) {
   .popup__item_type_checkbox {
     padding-left: 0;
   }
@@ -1374,6 +1387,26 @@ template {
     height: 62px;
   }
 }
+
+@media (max-width: 849px) {
+  .popup__submit-btn {
+    width: 340px;
+    height: 62px;
+  }
+}
+@media (max-width: 460px) {
+  .popup__submit-btn {
+    width: 340px;
+    height: 62px;
+  }
+}
+
+@media (max-width: 430px) {
+  .popup__submit-btn {
+    width: 320px;
+    height: 62px;
+  }
+} 
 
 @media (max-width: 850px) {
   .popup__close-btn {
@@ -1430,8 +1463,14 @@ template {
 
 @media (max-width: 849px) {
   .popup__container-tooltip {
-    width: 389px;
+    max-width: 389px;
     height: 579px;
+  }
+}
+
+@media (max-width: 410px) {
+  .popup__container-tooltip {
+    max-width: 350px;
   }
 }
 
@@ -1517,3 +1556,4 @@ template {
   font-size: 20px;
   line-height: 27px;
 }
+

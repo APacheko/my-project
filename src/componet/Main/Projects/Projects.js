@@ -12,15 +12,15 @@ export default function Project() {
           <li className="projects__item" key={project.id}>
             <Image
               className="projects__image"
-              src={project.image}
+              src={project.image_preview}
               width={345}
               height={216}
               alt="фотография проекта"
             />
-            <p className="projects__caption">{project.caption}</p>
-            <p className="projects__price">{project.summ}</p>
-            <h3 className="projects__text P2">{project.description}</h3>
-            <Link href="/project" className=" link projects__link">
+            <p className="projects__caption">Привлечено</p>
+            <p className="projects__price">{project.summ} ₽</p>
+            <h3 className="projects__text P2">{project.title_preview}</h3>
+            <Link href={`project/${project.id}`} className=" link projects__link">
               Подробнее
             </Link>
           </li>

@@ -1,4 +1,4 @@
-import imgProject from "../../public/img_project.png";
+import etno from "../../public/etno-image.png";
 import project2 from "../../public/project2.png";
 import project3 from "../../public/project3.png";
 export const services = [

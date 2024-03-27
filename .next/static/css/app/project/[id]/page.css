@@ -1575,10 +1575,10 @@ template {
 
 .project__image {
   width: 100%;
-  max-height: 606px;
+  height: 100%;
   border-radius: 20px;
   margin-top: 40px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project__container {
@@ -1650,15 +1650,6 @@ template {
     margin-top: 20px;
     flex-direction: column-reverse;
     align-items: start;
-  }
-}
-
-
-
-@media (max-width: 1175px) {
-  .project__image {
-    padding-bottom: 0px;
-
   }
 }
 

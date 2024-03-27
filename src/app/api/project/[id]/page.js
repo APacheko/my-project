@@ -1,4 +1,4 @@
-import "../../page.global.css";
+import "@/app/page.global.css"
 import "./project.css";
 import Link from "next/link";
 import Image from "next/image";

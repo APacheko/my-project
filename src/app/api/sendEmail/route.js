@@ -20,19 +20,6 @@ export default async function POST(req) {
       }
     );
 
-    await new Promise((resolve, reject) => {
-      // verify connection configuration
-      transporter.verify(function (error, success) {
-          if (error) {
-              console.log(error);
-              reject(error);
-          } else {
-              console.log("Server is ready to take our messages");
-              resolve(success);
-          }
-      });
-  });
-
     const mailOption = {
       from: "orggrant@yandex.ru",
       to: "orggrant@yandex.ru",
@@ -44,18 +31,8 @@ export default async function POST(req) {
     `,
     };
 
-    await new Promise((resolve, reject) => {
-      // send mail
-      smtpTransport.sendMail(mailOption, (err, info) => {
-          if (err) {
-              console.error(err);
-              reject(err);
-          } else {
-              console.log(info);
-              resolve(info);
-          }
-      });
-  });
+    smtpTransport.sendMail(mailOption);
+    
 
     return NextResponse.json(
       { message: "Email Sent Successfully" },

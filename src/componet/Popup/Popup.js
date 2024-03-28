@@ -14,7 +14,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
   });
 
   const sendForm = async (data) => {
-    await axios.post("https://my-project-two-navy.vercel.app/api/sendEmail", {
+    await axios.post("http://orggrant/api/sendEmail", {
         data
     });
     reset();

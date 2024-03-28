@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-export default async function POST(req) {
+export async function POST(req) {
   try {
     const { data } = await req.json();
     const smtpTransport = nodemailer.createTransport(
@@ -32,7 +32,6 @@ export default async function POST(req) {
     };
 
     smtpTransport.sendMail(mailOption);
-    
 
     return NextResponse.json(
       { message: "Email Sent Successfully" },

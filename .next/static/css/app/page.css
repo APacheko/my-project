@@ -1042,8 +1042,10 @@ template {
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Footer/Footer.css ***!
   \****************************************************************************************************************************************************************************************************************************************************************************/
 .footer {
+  padding: 40px 20px;
   background-color: #DFDFDF;
-  max-width: 1440px;
+  /* max-width: 1740px; */
+  background-size: 100%;
   margin: auto;
 }
 .footer__container {
@@ -1051,11 +1053,6 @@ template {
   max-width: 1075px;
   display: flex;
   justify-content: space-between;
-  padding: 60px 70px;
-}
-
-.footer__logo-container {
-  align-self: end;
 }
 
 .footer__title {
@@ -1072,7 +1069,7 @@ template {
 }
 
 .footer__logo {
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .footer__contacts {
@@ -1098,7 +1095,6 @@ template {
   font-weight: 500;
   font-size: 20px;
   line-height: 27px;
-  padding-bottom: 60px;
 }
 
 .footer__link {
@@ -1111,48 +1107,71 @@ template {
 
 @media (max-width: 1175px) {
   .footer__container {
-    max-width: 1075px;
-    padding: 40px 70px 40px;
-    margin: auto;
-    flex-direction: column;
-    align-items: center;
-    
+    max-width: 768px;
   }
 }
 
-@media (max-width: 1175px) {
-  .footer__logo-container {
-    align-self: center;
-    
+@media (max-width: 849px) {
+  .footer {
+    padding: 40px 20px 20px;
   }
 }
 
-@media (max-width: 1175px) {
+@media (max-width: 849px) {
   .footer__links-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
-   
-    
   }
 }
-@media (max-width: 1175px) {
+
+@media (max-width: 849px) {
+  .footer__link {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 849px) {
+  .footer__logo {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__container {
+   flex-direction: column-reverse;
+   align-items: center;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__contacts {
+   align-items: center;
+  }
+}
+
+@media (max-width: 649px) {
   .footer__logo-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
-   
-    
+    align-items: center;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__link {
+    margin: 0;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__logo {
+    padding-bottom: 40px;
   }
 }
 
 
-@media (max-width: 1175px) {
-  .footer__title {
-    text-align: center;
-    
-  }
-}
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Popup/Popup.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************************/

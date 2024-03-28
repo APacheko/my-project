@@ -63,11 +63,13 @@
 }
 
 .project__link {
+  display: block;
   text-decoration: none;
   color: #58AF31;
   font-size: 20px;
   font-weight: 500;
   line-height: 27px;
+  margin-bottom: 60px;
 }
 
 @media (max-width: 1175px) {

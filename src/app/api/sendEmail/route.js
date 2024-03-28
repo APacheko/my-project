@@ -31,7 +31,7 @@ export async function POST(req) {
     `,
     };
 
-    smtpTransport.sendMail(mailOption);
+    await smtpTransport.sendMail(mailOption);
 
     return NextResponse.json(
       { message: "Email Sent Successfully" },

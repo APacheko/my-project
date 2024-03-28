@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import Image from "next/image";
 import logoFooter from "../../../public/logo_footer.svg";
@@ -16,10 +17,29 @@ export default function Footer() {
             height={63}
             alt="Логотип"
           />
-          <p className="footer__text P2">Решения для НКО 2024</p>
+           <div className="footer__links-container">
+            <a className="footer__link  link P2" href="https://disk.yandex.ru/i/sHIujCZT9ZB_YQ" target="_blank" >
+              Оферта
+            </a>
+            <Link className="footer__link link P2" href="https://disk.yandex.ru/i/0D4mDkys_eTL7A" target="_blank">
+              Политика конфиденциальности
+            </Link>
+          </div>
         </div>
-        <div className="footer__social">
-          <h4 className="footer__title">Мы в соцсетях</h4>
+        <div className="footer__contacts">
+          <h4 className="footer__title">Контакты</h4>
+
+          <a className="footer__phone" href="tel: 88001234567">
+            8 800 123-45-67
+          </a>
+          <a
+            className="footer__mail P2"
+            href="mailto:mail@htmlacademy.ru&body=привет?subject=вопрос"
+          >
+            hello@nko-solutions.ru
+          </a>
+          <div />
+          {/* <div className="footer__social">
           <Image
             className="footer__icon"
             src={telegram}
@@ -33,30 +53,8 @@ export default function Footer() {
             width={60}
             height={60}
             alt="иконка вконтакте"
-          />
-          
-        </div>
-        <div className="footer__contacts">
-          <h4 className="footer__title">Контакты</h4>
-          <a className="footer__phone" href="tel: 88001234567">
-            8 800 123-45-67
-          </a>
-          <a
-            className="footer__mail P2"
-            href="mailto:mail@htmlacademy.ru&body=привет?subject=вопрос"
-          >
-            hello@nko-solutions.ru
-          </a>
-
-          <div className="footer__links-container">
-            <Link className="footer__link  link P2" href="/">
-              Оферта
-            </Link>
-            <Link className="footer__link link P2" href="/">
-              Политика конфиденциальности
-            </Link>
-          </div>
-          <div />
+          />  
+        </div> */}
         </div>
       </div>
     </footer>

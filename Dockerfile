@@ -12,7 +12,7 @@ RUN npm run build
 
 COPY .next ./.next
 
-EXPOSE 3000
+EXPOSE 3478
 
 CMD ["npm", "run", "start"]
 

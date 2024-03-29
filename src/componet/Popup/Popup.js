@@ -114,7 +114,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
         </h2>
         <fieldset className="popup__field">
           <label className="popup__error">
-            <input
+            <input autoComplete="on"
               className="popup__item P2"
               {...register("name", {
                 required: "Поле обязательно к заполнению",
@@ -137,7 +137,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
             </span>
           </label>
           <label className="popup__error">
-            <input
+            <input autoComplete="on"
               className="popup__item popup__item_type_email P2"
               {...register("email", {
                 required: "Поле обязательно к заполнению",
@@ -156,7 +156,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
             </span>
           </label>
           <label className="popup__error " >
-            <input 
+            <input autoComplete="on"
             {...register('phone', {
               onChange: (e) => {handleInput(e)},
               // required: "Поле обязательно к заполнению",

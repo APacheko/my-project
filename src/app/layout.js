@@ -9,11 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Решения для НКО",
   description: "Решаем задачи некоммерческих организаций",
+  
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="ru">
+      <meta name="yandex-verification" content="fbf0cdafa213fcd0" />
       <body className="root">
         <Suspense>
           <Metrika />

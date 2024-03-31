@@ -30,13 +30,13 @@ export default function Footer() {
           <h4 className="footer__title">Контакты</h4>
 
           <a className="footer__phone" href="tel: 88001234567">
-            8 800 123-45-67
+            +7 977 364-83-20
           </a>
           <a
             className="footer__mail P2"
             href="mailto:mail@htmlacademy.ru&body=привет?subject=вопрос"
           >
-            hello@nko-solutions.ru
+            orggrant@mail.ru
           </a>
           <div />
           {/* <div className="footer__social">

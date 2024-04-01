@@ -14,7 +14,7 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
   });
 
   const sendForm = async (data) => {
-    await axios.post("http://orggrant.ru/api/sendEmail", {
+    await axios.post("https://orggrant.ru/api/sendEmail", {
         data
     });
     reset();

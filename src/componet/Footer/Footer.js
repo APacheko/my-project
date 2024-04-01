@@ -27,16 +27,27 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__contacts">
+          <div className="footer__contact-container">
           <h4 className="footer__title">Контакты</h4>
+          <Link href="https://vk.com/orggrant" target="_blank"><Image
+            className="footer__icon"
+            src={vk}
+            width={60}
+            height={60}
+            alt="иконка телеграм"
+          />
+          </Link>
+          </div>
+        
 
           <a className="footer__phone" href="tel: +79773648320">
             +7 977 364-83-20
           </a>
           <a
             className="footer__mail P2"
-            href="mailto:orggrant@mail.ru&body=?subject="
+            href="mailto:info@orggrant.ru&body=?subject="
           >
-            orggrant@mail.ru
+            info@orggrant.ru
           </a>
           <div />
           {/* <div className="footer__social">

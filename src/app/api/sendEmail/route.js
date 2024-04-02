@@ -42,7 +42,7 @@ export async function POST(req) {
     };
     
     
-    //smtpTransport.sendMail(mailOption);
+    smtpTransport.sendMail(mailOption);
     smtpTransport.sendMail(messageClient);
    
 

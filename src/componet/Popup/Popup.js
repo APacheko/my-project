@@ -159,15 +159,8 @@ export default function Popup({ isOpenPopup, closePopup, setIsTooltipOpen, handl
             <input autoComplete="on"
             {...register('phone', {
               onChange: (e) => {handleInput(e)},
-              // required: "Поле обязательно к заполнению",
-              // pattern: {
-              //   value:
-              //   /^\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/,
-              //   message: "Введите корректный номер",
-              // },
-              
+               required: "Поле обязательно к заполнению", 
             })}
-             
               data-tel-input
               className="popup__item popup__item_type_phone P2"
               type="tel"

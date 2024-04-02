@@ -43,7 +43,7 @@ export async function POST(req) {
     
     
     smtpTransport.sendMail(mailOption);
-    smtpTransport.sendMail(messageClient);
+    //smtpTransport.sendMail(messageClient);
    
 
     return NextResponse.json(

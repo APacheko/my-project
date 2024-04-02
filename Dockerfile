@@ -12,6 +12,8 @@ RUN npm run build
 
 COPY .next ./.next
 
+ENV PASS=Kh57df11
+
 EXPOSE 3000
 
 CMD ["npm", "run", "start"]

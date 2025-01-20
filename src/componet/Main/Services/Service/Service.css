@@ -5,6 +5,10 @@
   cursor: pointer;
 }
 
+.service:hover {
+  background-color: #D5EBCB;
+}
+
 .service__title {
   margin: 0;
   padding: 25px 25px 10px;

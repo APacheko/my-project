@@ -1,0 +1,1587 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Promo/Promo.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.promo {
+  max-width: 1075px;
+  padding: 43px 70px 0;
+  margin: 0 auto;
+}
+
+.promo__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo__title {
+  margin: 0;
+  padding-top: 20px;
+  max-width: 600px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.promo__image {
+  padding-right: 24px;
+}
+
+
+.promo__text {
+  margin: 0;
+  max-width: 600px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+@media (max-width: 1175px) {
+  .promo__title {
+    text-align: center;
+    padding-top: 55px;
+  }
+}
+
+
+
+@media (max-width: 1175px) {
+  .promo__text {
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+
+
+@media (max-width: 1175px) {
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 65px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .promo__container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1175px) {
+  .promo__image {
+    padding: 0;
+  }
+}
+
+@media (max-width: 849px) {
+  .promo__title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 849px) {
+  .promo__text {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/vendor/normalize.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  display: inline;
+  font-size: 2em;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/vendor/fonts/fonts.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  medium;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/_next/static/media/VelaSans-Medium.130ae7cb.woff2) format("woff2"),
+       url(/_next/static/media/VelaSans-Bold.0abb3f61.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  'semiBold';
+  font-weight: 600;
+  font-display: swap;
+  src: url(/_next/static/media/VelaSans-SemiBold.083c7ac3.woff2) format("woff2"),
+       url(/_next/static/media/VelaSans-SemiBold.2abecb5b.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/_next/static/media/VelaSans-Bold.c9da60ca.woff2) format("woff2"),
+       url(/_next/static/media/VelaSans-Bold.0abb3f61.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'VelaSans';
+  font-style:  'extraBold';
+  font-weight: 900;
+  font-display: swap;
+  src: url(/_next/static/media/VelaSans-ExtraBold.b5759e7d.woff2) format("woff2"),
+       url(/_next/static/media/VelaSans-ExtraBold.f1575680.woff) format("woff");
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Header/Header.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.header {
+  max-width: 1075px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 70px;
+}
+
+.header__logo {
+  margin-right: 80px;
+}
+
+@media (max-width: 1175px) {
+  .header {
+    padding: 40px 70px 0;
+    margin-right: 60px;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1175px) {
+  .header__logo {
+    margin: auto;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 855px) {
+  .header {
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+@media (max-width: 855px) {
+  .header__logo {
+    margin: 0;
+    padding-bottom: 25px;
+  }
+}
+
+
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Header/Navigation/Navigation.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.navigation__link {
+  margin-right: 30px;
+  font-weight: 600;
+  margin-right: 32px;
+}
+
+
+.navigation__link:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 630px) {
+  .navigation {
+    display: grid;
+    grid-row-gap: 8px;
+    row-gap: 8px;
+    grid-template-areas: "one two"
+      "one two";
+  }
+}
+
+@media (max-width: 630px) {
+  .navigation__link {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 630px) {
+  .navigation__link_1 {
+    justify-self: end;
+    margin-right: 30px;
+
+  }
+}
+
+@media (max-width: 630px) {
+  .navigation__link_3 {
+    margin-right: 15px;
+
+  }
+}
+
+@media (max-width: 630px) {
+  .navigation__link_4 {
+    margin-left: 15px;
+
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Main.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Services/Services.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.services {
+  position: relative;
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 345px);
+  justify-content: start;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+@media (max-width: 1175px) {
+  .services {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .services__list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .services__list {
+    max-width: 768px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 390px);
+  }
+}
+
+@media (max-width: 410px) {
+  .services__list {
+    grid-template-columns: repeat(auto-fit, 350px);
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Services/Service/Service.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.service {
+  position: relative;
+  border: 2px #D5EBCB solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.service:hover {
+  background-color: #D5EBCB;
+}
+
+.service__title {
+  margin: 0;
+  padding: 25px 25px 10px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.service-active {
+  border: none;
+  cursor: default;
+}
+
+.service__container {
+  width: 100%;
+  min-height: 208px;
+}
+
+.class {
+  position: relative;
+  min-width: 200px;
+  min-height: 212px;
+}
+
+.service__container-active {
+  z-index: 1;
+  background-color: #D5EBCB;
+  border-radius: 20px;
+  position: absolute;
+  top: 0px;
+  transition: 0.3s;
+  box-shadow: 0px 10px 30px 0px #00000040;
+}
+
+.service__list {
+  border-top: 1px #58AF31 solid;
+  max-width: 100%;
+  margin: 20px 25px 0 25px;
+  list-style-type: disc;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding: 15px 0 5px  20px;
+}
+
+.service__time {
+  padding: 0 25px 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  opacity: 50%;
+  letter-spacing: 0.1em;
+
+}
+
+.service__description {
+  padding: 20px 25px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.service__text {
+  padding-bottom: 15px;
+}
+
+.service__text::marker {
+  font-size: 10px;
+}
+
+.service__price {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  padding: 0 25px;
+  letter-spacing: -1px;
+}
+
+.service__span {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.service__btn {
+  color: white;
+  padding: 0;
+  margin: auto;
+  width: 295px;
+  height: 62px;
+  border: none;
+  border-radius: 10px;
+  background-color: #58AF31;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  margin: 30px 25px 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 849px) {
+  .service__btn {
+    width: 340px;
+  
+  }
+}
+
+@media (max-width: 410px) {
+  .service__btn {
+    width: 300px;
+  
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Projects/Projects.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.projects {
+  position: relative;
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.projects__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 345px);
+  justify-content: start;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.projects__image {
+  border-radius: 20px;
+}
+
+.projects__caption {
+  margin: 0;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color:#58AF31;
+}
+
+.projects__price {
+  margin: 0;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 56px;
+  color:#58AF31;
+}
+
+.projects__text { 
+  padding: 20px 0 10px;
+}
+
+.projects__link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media (max-width: 1175px) {
+  .projects {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .projects__list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .projects__list {
+    max-width: 768px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 390px);
+    gap: 38px;
+  }
+}
+
+@media (max-width: 849px) {
+  .projects__image {
+    width: 390px;
+    height: 244px;
+  }
+}
+
+@media (max-width: 410px) {
+  .projects__list {
+    max-width: 768px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 350px);
+    gap: 38px;
+  }
+}
+
+@media (max-width: 410px) {
+  .projects__image {
+    width: 350px;
+    height: 234px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Title/Title.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.title {
+  padding: 110px 0 35px;
+  margin: 0;
+  color: #DFDFDF;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+@media (max-width: 849px) {
+  .title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 20px 35px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 20px 35px;
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Team/Team.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.team {
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.team__list {
+  display: grid;
+  grid-template-columns: minmax(350px, 510px) minmax(350px, 510px);
+  grid-gap: 60px 20px;
+  gap: 60px 20px;
+}
+
+.team__title {
+  max-width: 520px;
+  padding-bottom: 20px;
+}
+
+.team__subtitle {
+  padding-bottom: 10px;
+  color: #58AF31;
+}
+
+.team__text {
+  max-width: 345px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media (max-width: 1175px) {
+  .team {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .team__list {
+    justify-content: center;
+    max-width: 768px;
+    padding: 40px;
+  }
+}
+
+
+@media (max-width: 849px) {
+  .team__list {
+    grid-template-columns: repeat(auto-fit, 390px);
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .team__text {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 410px) {
+  .team__list {
+    grid-template-columns: repeat(auto-fit, 360px);
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Main/Questions/Questions.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.questions {
+  max-width: 1075px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.questions__list {
+  background-color: #D5EBCB;
+  border-radius: 20px;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: minmax(300px, 467px) minmax(300px, 467px);
+  grid-gap: 50px 20px;
+  gap: 50px 20px;
+}
+
+.questions__title {
+  padding-bottom: 10px;
+}
+
+.questions__item {
+  max-width: 465px;
+}
+
+
+@media (max-width: 1175px) {
+  .questions {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 849px) {
+  .questions {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .questions__text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1175px) {
+  .questions__list {
+    justify-content: center;
+    max-width: 768px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 849px) {
+  .questions__list {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, 490px);
+    justify-content: center;
+    text-align: start;
+    border-radius: 0px;
+    gap: 60px 20px;
+  }
+}
+
+@media (max-width: 649px) {
+  .questions__list {
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, 390px);
+    justify-content: center;
+    text-align: start;
+    border-radius: 0px;
+    gap: 60px 20px;
+  }
+}
+
+@media (max-width: 410px) {
+  .questions__list {
+    grid-template-columns: repeat(auto-fit, 340px);
+  }
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Footer/Footer.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+  padding: 40px 20px;
+  background-color: #DFDFDF;
+  /* max-width: 1740px; */
+  background-size: 100%;
+  margin: auto;
+}
+
+.footer__container {
+  margin: 0 auto;
+  max-width: 1075px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contact-container {
+  display: flex;
+}
+
+
+.footer__title {
+  margin: 0;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.footer__icon {
+  padding-left: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.footer__logo {
+  padding-bottom: 40px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__text {
+  color: #808080;
+}
+
+.footer__phone {
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.footer__mail {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.footer__link {
+  margin-right: 30px;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1175px) {
+  .footer__container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 849px) {
+  .footer {
+    padding: 40px 20px 20px;
+  }
+}
+
+@media (max-width: 849px) {
+  .footer__links-container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .footer__link {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 849px) {
+  .footer__logo {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__contacts {
+    align-items: center;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__link {
+    margin: 0;
+  }
+}
+
+@media (max-width: 649px) {
+  .footer__logo {
+    padding-bottom: 40px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Popup/Popup.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.popup {
+  z-index: 2;
+  background-color: rgb(0, 0, 0, .5);
+  position: fixed;
+  display: flex;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: visibility .3s, opacity .3s linear;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__container {
+  padding: 50px 120px 40px;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.popup__title {
+  color: #58AF31;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 55px;
+
+}
+
+.popup__field {
+  max-width: 500px;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__item {
+  position: relative;
+  border: 1.52px solid #D5EBCB;
+  padding: 11px 10px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  border-radius: 10px;
+  outline: 0;
+  margin-bottom: 30px;
+}
+
+.popup__item_type_checkbox {
+  border: none;
+  cursor: pointer;
+  padding-bottom: 35px;
+}
+
+.custom-checkbox>input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.custom-checkbox>span {
+  display: inline-flex;
+  align-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.custom-checkbox>span::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1.5px solid #D5EBCB;
+  border-radius: 0.25em;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox>input:not(:disabled):not(:checked)+span:hover::before {
+  border-color: #D5EBCB;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox>input:checked+span::before {
+  border-color: #58AF31;
+  background-color: #58AF31;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox>input:disabled+span::before {
+  background-color: #e9ecef;
+}
+
+
+.popup__item_type_error {
+  border-bottom: 1px solid #FF0000;
+  margin-bottom: 0;
+}
+
+.popup__item_type_error:last-of-type {
+  margin-bottom: 0;
+}
+
+.popup__error {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.popup__txt-error {
+  position: absolute;
+  top: 60px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #FF0000;
+  margin-left: 5px;
+}
+
+
+.popup__submit-btn {
+  background-color: #58AF31;
+  display: block;
+  width: 295px;
+  height: 62px;
+  border: 0;
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup__submit-btn:hover {
+  opacity: 0.8;
+}
+
+.popup__submit-btn:disabled {
+  background-color: #9d97972d;
+  color: rgb(209, 203, 203);
+  border: 1px solid rgb(209, 203, 203);
+  opacity: 1;
+  cursor: inherit;
+}
+
+.popup__close-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background-color: transparent;
+  background-image: url(/_next/static/media/Close.faceb235.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup__close-btn:hover {
+  opacity: .5;
+}
+
+@media (max-width: 1175px) {
+  .popup__container {
+    padding: 25px 50px 25px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__container {
+    padding: 25px 40px 25px;
+    max-width: 390px;
+  }
+}
+
+@media (max-width: 520px) {
+  .popup__container {
+    padding: 25px 20px 25px;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 420px) {
+  .popup__container {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+}
+
+@media (max-width: 1175px) {
+  .popup__item_type_checkbox {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 1175px) {
+  .popup__submit-btn {
+    width: 340px;
+    height: 62px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__submit-btn {
+    width: 340px;
+    height: 62px;
+  }
+}
+@media (max-width: 460px) {
+  .popup__submit-btn {
+    width: 340px;
+    height: 62px;
+  }
+}
+
+@media (max-width: 430px) {
+  .popup__submit-btn {
+    width: 320px;
+    height: 62px;
+  }
+} 
+
+@media (max-width: 850px) {
+  .popup__close-btn {
+    background-image: url(/_next/static/media/Close.faceb235.svg);
+    width: 26px;
+    height: 26px;
+    right: 0;
+  }
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/componet/Popup/Tooltip/Tooltip.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.popup__container-tooltip {
+  width: 796px;
+  height: 656px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.popup__title-tooltip{
+  color: #58AF31;
+  font-size: 128px;
+  font-weight: 700;
+  line-height: 128px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.popup__text-tooltip {
+  max-width: 371px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media (max-width: 1175px) {
+  .popup__container-tooltip {
+    width: 696px;
+    height: 556px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__container-tooltip {
+    max-width: 389px;
+    height: 579px;
+  }
+}
+
+@media (max-width: 410px) {
+  .popup__container-tooltip {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__title-tooltip {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 849px) {
+  .popup__text-tooltip {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/app/page.global.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.root {
+  min-height: 100vh;
+}
+
+.page {
+  min-width: 360px;
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'VelaSans', 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */ /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */ /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.link {
+  text-decoration: none;
+  color: #808080;
+}
+
+.link:hover {
+  opacity: 0.7;
+  transition: .2s linear;
+}
+
+.H1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 33px;
+}
+
+.P1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.H2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+}
+
+.P2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+

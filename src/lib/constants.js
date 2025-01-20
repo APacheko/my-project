@@ -80,6 +80,7 @@ export const services = [
 export const projects = [
   {
     id: "1",
+    url: "obshestvo-slepyh",
     image_preview: game,
     summ: "5 670 805",
     title_preview:
@@ -95,6 +96,7 @@ export const projects = [
   },
   {
     id: "2",
+    url: "oratorskoe-iskusstvo",
     image_preview: orator,
     summ: "2 599 230",
     title_preview:
@@ -113,6 +115,7 @@ export const projects = [
 
   {
     id: "3",
+    url: "etnokaraoke",
     image_preview: etno,
     summ: "2 967 730",
     title_preview:

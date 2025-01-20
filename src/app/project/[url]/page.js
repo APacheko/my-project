@@ -4,20 +4,27 @@ import Link from "next/link";
 import Image from "next/image";
 import { projects } from "@/lib/constants";
 
+
 export function generateStaticParams() {
   const data = projects;
 
-  return data.map((item) => ({
+  return data.map((item) => (
+    {
     item: item.url,
-  }));
+  }
+));
 }
 
 export function getProject(url) {
+ 
   return projects.find((item) => item.url === url);
 }
 
-export default async function Project({ params: { url } }) {
-  const data = getProject(url);
+export default async function Project({ params }) {
+  const { url } = await params
+ const data = getProject(url);
+
+
 
   return (
     <section className="project">
